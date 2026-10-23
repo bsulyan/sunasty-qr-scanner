@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunasty QR Scanner &amp; Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Compact Header -->
+  <header class="qr-header">
+    <div class="qr-brand">
+      <div class="qr-logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="3" y="14" width="7" height="7" rx="1"/>
+          <path d="M14 14h3v3h-3zM18 18h3v3h-3zM18 14h3M14 18v3"/>
+        </svg>
+      </div>
+      <div class="qr-brand-text">
+        <span class="qr-title">Sunasty QR</span>
+      </div>
+    </div>
+    <div class="qr-header-actions">
+      <button type="button" id="btn-theme-toggle" class="icon-btn" title="Switch light / dark theme" aria-label="Switch light / dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <a href="https://sunasty.com/qr-scan/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="header-site-link">sunasty.com ↗</a>
+    </div>
+  </header>
+
+  <!-- 4 Navigation Tabs -->
+  <nav class="qr-tabs" role="tablist" aria-label="Main navigation">
+    <button type="button" role="tab" id="tab-btn-scan" class="qr-tab-btn" aria-selected="true" aria-controls="panel-scan" data-tab="scan">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/>
+        <line x1="4" y1="12" x2="20" y2="12"/>
+      </svg>
+      <span data-i18n="tabScan">Scan</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-camera" class="qr-tab-btn" aria-selected="false" aria-controls="panel-camera" data-tab="camera">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+        <circle cx="12" cy="13" r="4"/>
+      </svg>
+      <span data-i18n="tabCamera">Camera</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-generate" class="qr-tab-btn" aria-selected="false" aria-controls="panel-generate" data-tab="generate">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="7" height="7"/>
+        <rect x="14" y="3" width="7" height="7"/>
+        <rect x="3" y="14" width="7" height="7"/>
+        <path d="M14 14h7v7h-7z"/>
+      </svg>
+      <span data-i18n="tabGenerate">Generate</span>
+    </button>
+    <button type="button" role="tab" id="tab-btn-history" class="qr-tab-btn" aria-selected="false" aria-controls="panel-history" data-tab="history">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9"/>
+        <polyline points="12 7 12 12 15 15"/>
+      </svg>
+      <span data-i18n="tabHistory">History</span>
+      <span id="history-count-pill" class="tab-pill" hidden>0</span>
+    </button>
+  </nav>
+
+  <!-- Main Workspace -->
+  <main class="qr-main">
+    <!-- TAB 1: SCANNER -->
+    <section id="panel-scan" role="tabpanel" aria-labelledby="tab-btn-scan" class="qr-panel">
+      <!-- Primary Action Buttons -->
+      <div class="scan-action-row">
+        <button type="button" id="btn-select-area" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2v14a2 2 0 0 0 2 2h14"/>
+            <path d="M18 22V8a2 2 0 0 0-2-2H2"/>
+          </svg>
+          <span data-i18n="btnSelectArea">Select screen area</span>
+        </button>
+        <button type="button" id="btn-rescan-tab" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 2v6h-6"/>
+            <path d="M3 12a9 9 0 0 1 15-6.7L21 8"/>
+            <path d="M3 22v-6h6"/>
+            <path d="M21 12a9 9 0 0 1-15 6.7L3 16"/>
+          </svg>
+          <span data-i18n="btnRescanTab">Scan active tab</span>
+        </button>
+      </div>
+
+      <!-- Interactive In-Popup Cropper -->
+      <div id="crop-workspace" class="crop-workspace" hidden>
+        <div class="crop-header">
+          <div>
+            <div class="crop-title" data-i18n="cropTitle">Drag a rectangle over the QR code to decode</div>
+            <div class="crop-hint" data-i18n="cropHint">2x supersampling active • Press Esc to cancel</div>
+          </div>
+          <div class="crop-toolbar">
+            <button type="button" id="btn-page-overlay-crop" class="btn btn-xs btn-ghost" data-i18n="cropPageOverlayBtn">Select directly on web page</button>
+            <button type="button" id="btn-close-crop" class="btn btn-xs btn-secondary" data-i18n="cropCancelBtn">Close cropper</button>
+          </div>
+        </div>
+        <div id="crop-stage" class="crop-stage">
+          <canvas id="crop-canvas"></canvas>
+          <div id="crop-selection-rect" class="crop-selection-rect" hidden></div>
+        </div>
+      </div>
+
+      <!-- Drag & Drop / File Import / Paste Ctrl+V -->
+      <label id="scan-dropzone" class="scan-dropzone" tabindex="0">
+        <input type="file" id="scan-file-input" accept="image/png,image/jpeg,image/webp,image/gif,image/bmp,image/svg+xml" hidden>
+        <div class="dropzone-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+        </div>
+        <div class="dropzone-text">
+          <div class="dropzone-title" data-i18n="dropzoneTitle">Drop an image, click to import, or paste (Ctrl+V)</div>
+          <div class="dropzone-sub" data-i18n="dropzoneSub">Images — processed on your device</div>
+        </div>
+      </label>
+
+      <!-- Scan Status / Multi-QR Results Header -->
+      <div id="scan-status-bar" class="scan-status-bar" hidden>
+        <span id="scan-count-badge" class="scan-count-badge"></span>
+        <span id="scan-timing-badge" class="scan-timing-badge"></span>
+      </div>
+
+      <!-- Results List Container -->
+      <div id="scan-results-list" class="scan-results-list" aria-live="polite"></div>
+
+      <!-- Empty / Ready State -->
+      <div id="scan-empty-state" class="scan-empty-state">
+        <div class="empty-illustration" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <rect x="3" y="3" width="7" height="7" rx="1"/>
+            <rect x="14" y="3" width="7" height="7" rx="1"/>
+            <rect x="3" y="14" width="7" height="7" rx="1"/>
+            <path d="M14 14h3v3h-3zM18 18h3v3h-3zM18 14h3M14 18v3"/>
+          </svg>
+        </div>
+        <p class="empty-title" data-i18n="noQrFoundTitle">No QR code detected on the current view</p>
+        <p class="empty-sub" data-i18n="noQrFoundSub">Use "Select screen area" to zoom in on a small QR code, or drop an image above.</p>
+      </div>
+
+      <!-- Contextual Sunasty Link -->
+      <div class="context-cta-bar">
+        <a href="https://sunasty.com/qr-scan/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="context-cta-link" data-i18n="linkBatchScan">
+          Scan full PDF or batch images on Sunasty.com →
+        </a>
+      </div>
+    </section>
+
+    <!-- TAB 2: CAMERA -->
+    <section id="panel-camera" role="tabpanel" aria-labelledby="tab-btn-camera" class="qr-panel" hidden>
+      <div id="camera-perm-card" class="perm-card">
+        <div class="perm-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+        </div>
+        <h2 class="perm-title" data-i18n="camPermTitle">Camera access required</h2>
+        <p class="perm-desc" data-i18n="camPermDesc">
+          Chrome closes extension popups when showing permission prompts. Click below to authorize your camera once in a dedicated tab.
+        </p>
+        <div class="perm-actions">
+          <button type="button" id="btn-authorize-camera" class="btn btn-primary" data-i18n="camPermBtn">
+            Authorize camera (one-time setup)
+          </button>
+          <button type="button" id="btn-open-camera-tab" class="btn btn-secondary" data-i18n="camOpenFullBtn">
+            Open full-screen scanner
+          </button>
+        </div>
+      </div>
+
+      <div id="camera-live-box" class="camera-live-box" hidden>
+        <div class="camera-controls-bar">
+          <select id="camera-device-select" class="select-input" aria-label="Camera device"></select>
+          <button type="button" id="btn-camera-mirror" class="btn btn-xs btn-secondary" data-i18n="camMirrorBtn">Mirror</button>
+          <button type="button" id="btn-camera-toggle" class="btn btn-xs btn-primary" data-i18n="camStopBtn">Stop</button>
+        </div>
+        <div class="camera-stage">
+          <video id="camera-video" autoplay playsinline muted></video>
+          <div class="camera-reticle" aria-hidden="true"></div>
+        </div>
+        <div id="camera-live-results" class="scan-results-list"></div>
+      </div>
+    </section>
+
+    <!-- TAB 3: GENERATE QR CODE -->
+    <section id="panel-generate" role="tabpanel" aria-labelledby="tab-btn-generate" class="qr-panel" hidden>
+      <div class="gen-form">
+        <div class="gen-label-row">
+          <label for="gen-text-input" class="field-label" data-i18n="genInputLabel">Content (URL, text, Wi-Fi, vCard)</label>
+          <div class="gen-presets">
+            <button type="button" class="preset-chip" data-preset="url">URL</button>
+            <button type="button" class="preset-chip" data-preset="wifi">Wi-Fi</button>
+            <button type="button" class="preset-chip" data-preset="vcard">vCard</button>
+          </div>
+        </div>
+        <textarea id="gen-text-input" class="gen-textarea" rows="3" placeholder="Enter URL or text to encode...">https://sunasty.com/qr-scan/</textarea>
+
+        <div class="gen-options-row">
+          <div class="gen-option-group">
+            <label for="gen-ecc-select" class="field-label" data-i18n="genEccLabel">Error correction</label>
+            <select id="gen-ecc-select" class="select-input">
+              <option value="L">L (7%)</option>
+              <option value="M" selected>M (15%)</option>
+              <option value="Q">Q (25%)</option>
+              <option value="H">H (30%)</option>
+            </select>
+          </div>
+          <div class="gen-option-group">
+            <label for="gen-margin-select" class="field-label" data-i18n="genMarginLabel">Quiet zone</label>
+            <select id="gen-margin-select" class="select-input">
+              <option value="1">1 module</option>
+              <option value="2" selected>2 modules</option>
+              <option value="4">4 modules</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="gen-preview-card">
+          <canvas id="gen-preview-canvas" width="200" height="200"></canvas>
+        </div>
+
+        <div class="gen-actions-row">
+          <button type="button" id="btn-dl-png" class="btn btn-primary" data-i18n="genDownloadPng">Download PNG (1024px)</button>
+          <button type="button" id="btn-dl-svg" class="btn btn-secondary" data-i18n="genDownloadSvg">Download SVG</button>
+          <button type="button" id="btn-copy-qr-img" class="btn btn-secondary" data-i18n="genCopyImage">Copy QR image</button>
+        </div>
+
+        <div class="context-cta-bar">
+          <a href="https://sunasty.com/qr-code/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="context-cta-link" data-i18n="linkCustomQr">
+            Custom colors, logos &amp; bulk QR on Sunasty.com →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: HISTORY -->
+    <section id="panel-history" role="tabpanel" aria-labelledby="tab-btn-history" class="qr-panel" hidden>
+      <div class="history-top-bar">
+        <input type="search" id="history-search-input" class="search-input" placeholder="Search history (URL, Wi-Fi, 2FA, text)...">
+      </div>
+      <div class="history-toolbar">
+        <label class="toggle-switch-label">
+          <input type="checkbox" id="history-enable-checkbox" checked>
+          <span data-i18n="histEnableLabel">Save scan history locally</span>
+        </label>
+        <div class="history-export-btns">
+          <button type="button" id="btn-export-csv" class="btn btn-xs btn-secondary" data-i18n="histExportCsv">Export CSV</button>
+          <button type="button" id="btn-export-json" class="btn btn-xs btn-secondary" data-i18n="histExportJson">Export JSON</button>
+          <button type="button" id="btn-clear-history" class="btn btn-xs btn-danger-ghost" data-i18n="histClearAll">Clear all</button>
+        </div>
+      </div>
+
+      <div id="history-list" class="scan-results-list"></div>
+      <div id="history-empty-state" class="scan-empty-state" hidden>
+        <p class="empty-title" data-i18n="histEmpty">No scan history saved yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast-banner" class="toast-banner" role="status" aria-live="polite" hidden></div>
+
+  <footer class="qr-footer">
+    <a href="https://sunasty.com/qr-scan/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" data-i18n="footerTools">Sunasty.com — 170+ local tools</a>
+    <span class="footer-sep" aria-hidden="true">•</span>
+    <a href="https://ulysan.fr/" target="_blank" rel="noopener noreferrer" data-i18n="footerBy">By Ulysan</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

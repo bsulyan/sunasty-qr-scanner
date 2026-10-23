@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty QRコードリーダー＆作成ツール"
+  },
+  "extDescription": {
+    "message": "画面上や選択範囲、画像、カメラからQRコードを読み取り、ブラウザ内で高解像度のQRコードを作成します。"
+  },
+  "cmdScanTab": {
+    "message": "現在のタブのQRコードをスキャン"
+  },
+  "ctxScanImage": {
+    "message": "SunastyでこのQRコードをスキャン"
+  },
+  "badgeLocal": {
+    "message": "ローカル"
+  },
+  "tabScan": {
+    "message": "スキャン"
+  },
+  "tabCamera": {
+    "message": "カメラ"
+  },
+  "tabGenerate": {
+    "message": "作成"
+  },
+  "tabHistory": {
+    "message": "履歴"
+  },
+  "btnSelectArea": {
+    "message": "画面の範囲を選択"
+  },
+  "btnRescanTab": {
+    "message": "タブを再スキャン"
+  },
+  "cropTitle": {
+    "message": "QRコードの周りをドラッグして選択してください"
+  },
+  "cropHint": {
+    "message": "2倍超解像モード有効 • Escでキャンセル"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Webページ上で直接選択"
+  },
+  "cropCancelBtn": {
+    "message": "閉じる"
+  },
+  "dropzoneTitle": {
+    "message": "画像をドロップ、クリックして選択、または貼り付け (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — デバイス内で処理"
+  },
+  "resultsFoundCount": {
+    "message": "{count} 個のQRコードを検出"
+  },
+  "resultsFoundSingle": {
+    "message": "1 個のQRコードを検出"
+  },
+  "noQrFoundTitle": {
+    "message": "現在の画面でQRコードが見つかりませんでした"
+  },
+  "noQrFoundSub": {
+    "message": "「画面の範囲を選択」で小さいQRコードを指定するか、画像をドロップしてください。"
+  },
+  "scanningStatus": {
+    "message": "ローカルで解析中..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "非暗号化HTTP — 開く前に確認"
+  },
+  "securityIpWarn": {
+    "message": "直接IP URL — 開く前に確認"
+  },
+  "btnOpenUrl": {
+    "message": "新しいタブで開く"
+  },
+  "btnCopyUrl": {
+    "message": "リンクをコピー"
+  },
+  "btnCopyText": {
+    "message": "テキストをコピー"
+  },
+  "btnCopyPass": {
+    "message": "パスワードをコピー"
+  },
+  "btnShowPass": {
+    "message": "表示"
+  },
+  "btnHidePass": {
+    "message": "非表示"
+  },
+  "btnCopyTotp": {
+    "message": "6桁コードをコピー"
+  },
+  "btnCopySecret": {
+    "message": "シークレットキーをコピー"
+  },
+  "btnDownloadVcf": {
+    "message": "連絡先を保存 (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "メールを作成"
+  },
+  "btnSendSms": {
+    "message": "SMSを送信"
+  },
+  "btnCallPhone": {
+    "message": "発信"
+  },
+  "copiedToast": {
+    "message": "コピーしました"
+  },
+  "wifiSsid": {
+    "message": "ネットワーク (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "セキュリティ"
+  },
+  "wifiPassword": {
+    "message": "パスワード"
+  },
+  "totpLiveCode": {
+    "message": "2FAコード (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "サービス"
+  },
+  "totpAccount": {
+    "message": "アカウント"
+  },
+  "vcardName": {
+    "message": "氏名"
+  },
+  "vcardOrg": {
+    "message": "組織"
+  },
+  "vcardPhone": {
+    "message": "電話番号"
+  },
+  "vcardEmail": {
+    "message": "メール"
+  },
+  "camPermTitle": {
+    "message": "カメラの許可が必要です"
+  },
+  "camPermDesc": {
+    "message": "専用タブで一度だけカメラへのアクセスを許可してください。"
+  },
+  "camPermBtn": {
+    "message": "カメラを許可する (初回のみ)"
+  },
+  "camOpenFullBtn": {
+    "message": "全画面スキャナーを開く"
+  },
+  "camStartBtn": {
+    "message": "カメラ開始"
+  },
+  "camStopBtn": {
+    "message": "停止"
+  },
+  "camMirrorBtn": {
+    "message": "反転"
+  },
+  "camSelectLabel": {
+    "message": "カメラ選択"
+  },
+  "genInputLabel": {
+    "message": "内容 (URL、テキスト、Wi-Fi、vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "URLまたはテキストを入力..."
+  },
+  "genEccLabel": {
+    "message": "誤り訂正レベル"
+  },
+  "genMarginLabel": {
+    "message": "余白"
+  },
+  "genDownloadPng": {
+    "message": "PNG保存 (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "SVG保存"
+  },
+  "genCopyImage": {
+    "message": "QR画像をコピー"
+  },
+  "histSearchPlaceholder": {
+    "message": "履歴を検索..."
+  },
+  "histExportCsv": {
+    "message": "CSV出力"
+  },
+  "histExportJson": {
+    "message": "JSON出力"
+  },
+  "histClearAll": {
+    "message": "すべて削除"
+  },
+  "histEmpty": {
+    "message": "スキャン履歴はまだありません。"
+  },
+  "histEnableLabel": {
+    "message": "履歴をローカルに保存"
+  },
+  "linkBatchScan": {
+    "message": "Sunasty.comでPDF全体や複数画像を一括スキャン →"
+  },
+  "linkCustomQr": {
+    "message": "Sunasty.comで色・ロゴ入りカスタムQRを作成 →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170以上のローカルツール"
+  },
+  "footerBy": {
+    "message": "By Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "ライト / ダークテーマ切替"
+  }
+}

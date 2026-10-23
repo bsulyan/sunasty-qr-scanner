@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty قارئ ومنشئ رموز QR"
+  },
+  "extDescription": {
+    "message": "امسح رموز QR من الشاشة أو المنطقة المحددة أو الصور أو الكاميرا، وأنشئ رموز QR محلياً داخل متصفحك."
+  },
+  "cmdScanTab": {
+    "message": "مسح رموز QR في علامة التبويب النشطة"
+  },
+  "ctxScanImage": {
+    "message": "مسح رمز QR هذا باستخدام Sunasty"
+  },
+  "badgeLocal": {
+    "message": "محلي"
+  },
+  "tabScan": {
+    "message": "مسح"
+  },
+  "tabCamera": {
+    "message": "الكاميرا"
+  },
+  "tabGenerate": {
+    "message": "إنشاء"
+  },
+  "tabHistory": {
+    "message": "السجل"
+  },
+  "btnSelectArea": {
+    "message": "تحديد منطقة الشاشة"
+  },
+  "btnRescanTab": {
+    "message": "مسح علامة التبويب"
+  },
+  "cropTitle": {
+    "message": "اسحب مستطيلاً حول رمز QR لفك تشفيره"
+  },
+  "cropHint": {
+    "message": "تكبير فائق الدقة 2x • اضغط Esc للإلغاء"
+  },
+  "cropPageOverlayBtn": {
+    "message": "التحديد مباشرة على صفحة الويب"
+  },
+  "cropCancelBtn": {
+    "message": "إغلاق"
+  },
+  "dropzoneTitle": {
+    "message": "أسقط صورة أو انقر للاستيراد أو الصق (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — معالجة محلية على جهازك"
+  },
+  "resultsFoundCount": {
+    "message": "تم اكتشاف {count} رموز QR"
+  },
+  "resultsFoundSingle": {
+    "message": "تم اكتشاف رمز QR واحد"
+  },
+  "noQrFoundTitle": {
+    "message": "لم يتم العثور على رمز QR في العرض الحالي"
+  },
+  "noQrFoundSub": {
+    "message": "استخدم \"تحديد منطقة الشاشة\" للرموز الصغيرة أو ارفع صورة أعلاه."
+  },
+  "scanningStatus": {
+    "message": "جارٍ الفحص محلياً..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "رابط HTTP غير مشفر — تحقق قبل الفتح"
+  },
+  "securityIpWarn": {
+    "message": "عنوان IP مباشر — تحقق قبل الفتح"
+  },
+  "btnOpenUrl": {
+    "message": "فتح في تبويب جديد"
+  },
+  "btnCopyUrl": {
+    "message": "نسخ الرابط"
+  },
+  "btnCopyText": {
+    "message": "نسخ النص"
+  },
+  "btnCopyPass": {
+    "message": "نسخ كلمة المرور"
+  },
+  "btnShowPass": {
+    "message": "إظهار"
+  },
+  "btnHidePass": {
+    "message": "إخفاء"
+  },
+  "btnCopyTotp": {
+    "message": "نسخ الرمز المكون من 6 أرقام"
+  },
+  "btnCopySecret": {
+    "message": "نسخ المفتاح السري"
+  },
+  "btnDownloadVcf": {
+    "message": "تنزيل جهة الاتصال (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "إرسال بريد إلكتروني"
+  },
+  "btnSendSms": {
+    "message": "إرسال رسالة SMS"
+  },
+  "btnCallPhone": {
+    "message": "اتصال"
+  },
+  "copiedToast": {
+    "message": "تم النسخ إلى الحافظة"
+  },
+  "wifiSsid": {
+    "message": "الشبكة (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "الأمان"
+  },
+  "wifiPassword": {
+    "message": "كلمة المرور"
+  },
+  "totpLiveCode": {
+    "message": "رمز التحقق الثنائي 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "الخدمة"
+  },
+  "totpAccount": {
+    "message": "الحساب"
+  },
+  "vcardName": {
+    "message": "الاسم"
+  },
+  "vcardOrg": {
+    "message": "المؤسسة"
+  },
+  "vcardPhone": {
+    "message": "الهاتف"
+  },
+  "vcardEmail": {
+    "message": "البريد الإلكتروني"
+  },
+  "camPermTitle": {
+    "message": "مطلوب إذن الكاميرا"
+  },
+  "camPermDesc": {
+    "message": "يرجى السماح بالكاميرا لمرة واحدة في علامة تبويب مخصصة."
+  },
+  "camPermBtn": {
+    "message": "السماح بالكاميرا (لمرة واحدة)"
+  },
+  "camOpenFullBtn": {
+    "message": "فتح الماسح بملء الشاشة"
+  },
+  "camStartBtn": {
+    "message": "تشغيل الكاميرا"
+  },
+  "camStopBtn": {
+    "message": "إيقاف"
+  },
+  "camMirrorBtn": {
+    "message": "مرآة"
+  },
+  "camSelectLabel": {
+    "message": "الكاميرا"
+  },
+  "genInputLabel": {
+    "message": "المحتوى (رابط، نص، Wi-Fi، بطاقة جهة اتصال)"
+  },
+  "genInputPlaceholder": {
+    "message": "أدخل رابطاً أو نصاً..."
+  },
+  "genEccLabel": {
+    "message": "تصحيح الأخطاء"
+  },
+  "genMarginLabel": {
+    "message": "الهامش"
+  },
+  "genDownloadPng": {
+    "message": "تنزيل PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "تنزيل SVG"
+  },
+  "genCopyImage": {
+    "message": "نسخ صورة QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "البحث في السجل..."
+  },
+  "histExportCsv": {
+    "message": "تصدير CSV"
+  },
+  "histExportJson": {
+    "message": "تصدير JSON"
+  },
+  "histClearAll": {
+    "message": "مسح الكل"
+  },
+  "histEmpty": {
+    "message": "لا يوجد سجل محفوظ بعد."
+  },
+  "histEnableLabel": {
+    "message": "حفظ السجل محلياً"
+  },
+  "linkBatchScan": {
+    "message": "مسح ملفات PDF كاملة أو صور متعددة على Sunasty.com ←"
+  },
+  "linkCustomQr": {
+    "message": "تخصيص الألوان والشعارات على Sunasty.com ←"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — أكثر من 170 أداة محلية مجانية"
+  },
+  "footerBy": {
+    "message": "بواسطة Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "تبديل المظهر الفاتح / الداكن"
+  }
+}

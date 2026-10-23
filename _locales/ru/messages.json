@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty Сканер и Генератор QR-кодов"
+  },
+  "extDescription": {
+    "message": "Сканируйте QR-коды с экрана, выбранной области, изображений или камеры и создавайте QR-коды локально в браузере."
+  },
+  "cmdScanTab": {
+    "message": "Сканировать QR-коды на активной вкладке"
+  },
+  "ctxScanImage": {
+    "message": "Сканировать этот QR-код с помощью Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Локально"
+  },
+  "tabScan": {
+    "message": "Сканер"
+  },
+  "tabCamera": {
+    "message": "Камера"
+  },
+  "tabGenerate": {
+    "message": "Создать"
+  },
+  "tabHistory": {
+    "message": "История"
+  },
+  "btnSelectArea": {
+    "message": "Выбрать область"
+  },
+  "btnRescanTab": {
+    "message": "Сканировать вкладку"
+  },
+  "cropTitle": {
+    "message": "Выделите прямоугольник вокруг QR-кода"
+  },
+  "cropHint": {
+    "message": "2x суперсэмплинг активен • Esc для отмены"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Выделить на веб-странице"
+  },
+  "cropCancelBtn": {
+    "message": "Закрыть"
+  },
+  "dropzoneTitle": {
+    "message": "Перетащите изображение, нажмите или вставьте (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — локальная обработка на устройстве"
+  },
+  "resultsFoundCount": {
+    "message": "Обнаружено QR-кодов: {count}"
+  },
+  "resultsFoundSingle": {
+    "message": "Обнаружен 1 QR-код"
+  },
+  "noQrFoundTitle": {
+    "message": "QR-код не обнаружен в текущем окне"
+  },
+  "noQrFoundSub": {
+    "message": "Используйте «Выбрать область» для мелких QR-кодов или загрузите изображение."
+  },
+  "scanningStatus": {
+    "message": "Локальное сканирование..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "Незащищенный HTTP — проверьте перед открытием"
+  },
+  "securityIpWarn": {
+    "message": "Прямой IP-адрес — проверьте перед открытием"
+  },
+  "btnOpenUrl": {
+    "message": "Открыть в новой вкладке"
+  },
+  "btnCopyUrl": {
+    "message": "Копировать ссылку"
+  },
+  "btnCopyText": {
+    "message": "Копировать текст"
+  },
+  "btnCopyPass": {
+    "message": "Копировать пароль"
+  },
+  "btnShowPass": {
+    "message": "Показать"
+  },
+  "btnHidePass": {
+    "message": "Скрыть"
+  },
+  "btnCopyTotp": {
+    "message": "Копировать 6-значный код"
+  },
+  "btnCopySecret": {
+    "message": "Копировать секретный ключ"
+  },
+  "btnDownloadVcf": {
+    "message": "Скачать контакт (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "Написать письмо"
+  },
+  "btnSendSms": {
+    "message": "Отправить SMS"
+  },
+  "btnCallPhone": {
+    "message": "Позвонить"
+  },
+  "copiedToast": {
+    "message": "Скопировано в буфер обмена"
+  },
+  "wifiSsid": {
+    "message": "Сеть (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Защита"
+  },
+  "wifiPassword": {
+    "message": "Пароль"
+  },
+  "totpLiveCode": {
+    "message": "Код 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Сервис"
+  },
+  "totpAccount": {
+    "message": "Аккаунт"
+  },
+  "vcardName": {
+    "message": "Имя"
+  },
+  "vcardOrg": {
+    "message": "Организация"
+  },
+  "vcardPhone": {
+    "message": "Телефон"
+  },
+  "vcardEmail": {
+    "message": "Email"
+  },
+  "camPermTitle": {
+    "message": "Требуется доступ к камере"
+  },
+  "camPermDesc": {
+    "message": "Разрешите доступ к камере один раз в отдельной вкладке."
+  },
+  "camPermBtn": {
+    "message": "Разрешить камеру (один раз)"
+  },
+  "camOpenFullBtn": {
+    "message": "Открыть полноэкранный сканер"
+  },
+  "camStartBtn": {
+    "message": "Включить камеру"
+  },
+  "camStopBtn": {
+    "message": "Стоп"
+  },
+  "camMirrorBtn": {
+    "message": "Зеркало"
+  },
+  "camSelectLabel": {
+    "message": "Камера"
+  },
+  "genInputLabel": {
+    "message": "Содержимое (URL, текст, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Введите URL или текст..."
+  },
+  "genEccLabel": {
+    "message": "Коррекция ошибок"
+  },
+  "genMarginLabel": {
+    "message": "Поля"
+  },
+  "genDownloadPng": {
+    "message": "Скачать PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Скачать SVG"
+  },
+  "genCopyImage": {
+    "message": "Копировать QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "Поиск в истории..."
+  },
+  "histExportCsv": {
+    "message": "Экспорт CSV"
+  },
+  "histExportJson": {
+    "message": "Экспорт JSON"
+  },
+  "histClearAll": {
+    "message": "Очистить всё"
+  },
+  "histEmpty": {
+    "message": "История сканирований пуста."
+  },
+  "histEnableLabel": {
+    "message": "Сохранять историю локально"
+  },
+  "linkBatchScan": {
+    "message": "Пакетное сканирование PDF и изображений на Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Цвета, логотипы и пакетный QR на Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ локальных инструментов"
+  },
+  "footerBy": {
+    "message": "От Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Переключить светлую / тёмную тему"
+  }
+}

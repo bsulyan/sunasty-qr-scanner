@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty Trình Quét & Tạo Mã QR"
+  },
+  "extDescription": {
+    "message": "Quét mã QR trên màn hình, vùng đã chọn, hình ảnh hoặc máy ảnh và tạo mã QR cục bộ trong trình duyệt của bạn."
+  },
+  "cmdScanTab": {
+    "message": "Quét mã QR trên tab đang mở"
+  },
+  "ctxScanImage": {
+    "message": "Quét mã QR này bằng Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Cục bộ"
+  },
+  "tabScan": {
+    "message": "Quét"
+  },
+  "tabCamera": {
+    "message": "Camera"
+  },
+  "tabGenerate": {
+    "message": "Tạo mã"
+  },
+  "tabHistory": {
+    "message": "Lịch sử"
+  },
+  "btnSelectArea": {
+    "message": "Chọn vùng màn hình"
+  },
+  "btnRescanTab": {
+    "message": "Quét tab hiện tại"
+  },
+  "cropTitle": {
+    "message": "Kéo chuột chọn vùng quanh mã QR"
+  },
+  "cropHint": {
+    "message": "Lấy mẫu siêu nét 2x • Nhấn Esc để hủy"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Chọn trực tiếp trên trang web"
+  },
+  "cropCancelBtn": {
+    "message": "Đóng"
+  },
+  "dropzoneTitle": {
+    "message": "Kéo thả ảnh, nhấp để chọn hoặc dán (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — xử lý cục bộ trên thiết bị"
+  },
+  "resultsFoundCount": {
+    "message": "Đã phát hiện {count} mã QR"
+  },
+  "resultsFoundSingle": {
+    "message": "Đã phát hiện 1 mã QR"
+  },
+  "noQrFoundTitle": {
+    "message": "Không tìm thấy mã QR trên màn hình hiện tại"
+  },
+  "noQrFoundSub": {
+    "message": "Dùng \"Chọn vùng màn hình\" để phóng to mã QR nhỏ hoặc tải ảnh lên."
+  },
+  "scanningStatus": {
+    "message": "Đang phân tích cục bộ..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "HTTP không mã hóa — hãy kiểm tra trước khi mở"
+  },
+  "securityIpWarn": {
+    "message": "Địa chỉ IP trực tiếp — hãy kiểm tra trước khi mở"
+  },
+  "btnOpenUrl": {
+    "message": "Mở trong tab mới"
+  },
+  "btnCopyUrl": {
+    "message": "Sao chép liên kết"
+  },
+  "btnCopyText": {
+    "message": "Sao chép văn bản"
+  },
+  "btnCopyPass": {
+    "message": "Sao chép mật khẩu"
+  },
+  "btnShowPass": {
+    "message": "Hiện"
+  },
+  "btnHidePass": {
+    "message": "Ẩn"
+  },
+  "btnCopyTotp": {
+    "message": "Sao chép mã 6 số"
+  },
+  "btnCopySecret": {
+    "message": "Sao chép khóa bí mật"
+  },
+  "btnDownloadVcf": {
+    "message": "Tải danh bạ (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "Gửi email"
+  },
+  "btnSendSms": {
+    "message": "Gửi SMS"
+  },
+  "btnCallPhone": {
+    "message": "Gọi điện"
+  },
+  "copiedToast": {
+    "message": "Đã sao chép vào bộ nhớ tạm"
+  },
+  "wifiSsid": {
+    "message": "Mạng (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Bảo mật"
+  },
+  "wifiPassword": {
+    "message": "Mật khẩu"
+  },
+  "totpLiveCode": {
+    "message": "Mã 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Dịch vụ"
+  },
+  "totpAccount": {
+    "message": "Tài khoản"
+  },
+  "vcardName": {
+    "message": "Họ tên"
+  },
+  "vcardOrg": {
+    "message": "Tổ chức"
+  },
+  "vcardPhone": {
+    "message": "Điện thoại"
+  },
+  "vcardEmail": {
+    "message": "Email"
+  },
+  "camPermTitle": {
+    "message": "Cần quyền truy cập camera"
+  },
+  "camPermDesc": {
+    "message": "Cấp quyền camera một lần duy nhất trong tab riêng."
+  },
+  "camPermBtn": {
+    "message": "Cấp quyền camera (1 lần)"
+  },
+  "camOpenFullBtn": {
+    "message": "Mở trình quét toàn màn hình"
+  },
+  "camStartBtn": {
+    "message": "Bật camera"
+  },
+  "camStopBtn": {
+    "message": "Dừng"
+  },
+  "camMirrorBtn": {
+    "message": "Lật gương"
+  },
+  "camSelectLabel": {
+    "message": "Camera"
+  },
+  "genInputLabel": {
+    "message": "Nội dung (URL, văn bản, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Nhập URL hoặc văn bản..."
+  },
+  "genEccLabel": {
+    "message": "Mức sửa lỗi"
+  },
+  "genMarginLabel": {
+    "message": "Lề trắng"
+  },
+  "genDownloadPng": {
+    "message": "Tải PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Tải SVG"
+  },
+  "genCopyImage": {
+    "message": "Sao chép ảnh QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "Tìm kiếm lịch sử..."
+  },
+  "histExportCsv": {
+    "message": "Xuất CSV"
+  },
+  "histExportJson": {
+    "message": "Xuất JSON"
+  },
+  "histClearAll": {
+    "message": "Xóa tất cả"
+  },
+  "histEmpty": {
+    "message": "Chưa có lịch sử quét."
+  },
+  "histEnableLabel": {
+    "message": "Lưu lịch sử cục bộ"
+  },
+  "linkBatchScan": {
+    "message": "Quét toàn bộ PDF hoặc hàng loạt ảnh trên Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Tùy chỉnh màu sắc, logo & tạo QR hàng loạt trên Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ công cụ cục bộ miễn phí"
+  },
+  "footerBy": {
+    "message": "Bởi Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Chuyển giao diện sáng / tối"
+  }
+}

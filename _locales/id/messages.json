@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty Pemindai & Pembuat Kode QR"
+  },
+  "extDescription": {
+    "message": "Pindai kode QR di layar, area pilihan, gambar, atau kamera, serta buat kode QR secara lokal di browser Anda."
+  },
+  "cmdScanTab": {
+    "message": "Pindai kode QR di tab aktif"
+  },
+  "ctxScanImage": {
+    "message": "Pindai kode QR ini dengan Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Lokal"
+  },
+  "tabScan": {
+    "message": "Pindai"
+  },
+  "tabCamera": {
+    "message": "Kamera"
+  },
+  "tabGenerate": {
+    "message": "Buat QR"
+  },
+  "tabHistory": {
+    "message": "Riwayat"
+  },
+  "btnSelectArea": {
+    "message": "Pilih area layar"
+  },
+  "btnRescanTab": {
+    "message": "Pindai tab aktif"
+  },
+  "cropTitle": {
+    "message": "Seret persegi panjang di sekitar kode QR"
+  },
+  "cropHint": {
+    "message": "Supersampling 2x aktif • Tekan Esc untuk batal"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Pilih langsung di halaman web"
+  },
+  "cropCancelBtn": {
+    "message": "Tutup"
+  },
+  "dropzoneTitle": {
+    "message": "Tarik gambar, klik untuk impor, atau tempel (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — diproses lokal di perangkat Anda"
+  },
+  "resultsFoundCount": {
+    "message": "{count} kode QR terdeteksi"
+  },
+  "resultsFoundSingle": {
+    "message": "1 kode QR terdeteksi"
+  },
+  "noQrFoundTitle": {
+    "message": "Tidak ada kode QR yang terdeteksi di tampilan saat ini"
+  },
+  "noQrFoundSub": {
+    "message": "Gunakan \"Pilih area layar\" untuk kode QR kecil atau unggah gambar di atas."
+  },
+  "scanningStatus": {
+    "message": "Memindai secara lokal..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "HTTP tidak terenkripsi — periksa sebelum membuka"
+  },
+  "securityIpWarn": {
+    "message": "Alamat IP langsung — periksa sebelum membuka"
+  },
+  "btnOpenUrl": {
+    "message": "Buka di tab baru"
+  },
+  "btnCopyUrl": {
+    "message": "Salin tautan"
+  },
+  "btnCopyText": {
+    "message": "Salin teks"
+  },
+  "btnCopyPass": {
+    "message": "Salin kata sandi"
+  },
+  "btnShowPass": {
+    "message": "Tampilkan"
+  },
+  "btnHidePass": {
+    "message": "Sembunyikan"
+  },
+  "btnCopyTotp": {
+    "message": "Salin kode 6 digit"
+  },
+  "btnCopySecret": {
+    "message": "Salin kunci rahasia"
+  },
+  "btnDownloadVcf": {
+    "message": "Unduh kontak (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "Kirim email"
+  },
+  "btnSendSms": {
+    "message": "Kirim SMS"
+  },
+  "btnCallPhone": {
+    "message": "Panggil nomor"
+  },
+  "copiedToast": {
+    "message": "Disalin ke papan klip"
+  },
+  "wifiSsid": {
+    "message": "Jaringan (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Keamanan"
+  },
+  "wifiPassword": {
+    "message": "Kata sandi"
+  },
+  "totpLiveCode": {
+    "message": "Kode 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Layanan"
+  },
+  "totpAccount": {
+    "message": "Akun"
+  },
+  "vcardName": {
+    "message": "Nama"
+  },
+  "vcardOrg": {
+    "message": "Organisasi"
+  },
+  "vcardPhone": {
+    "message": "Telepon"
+  },
+  "vcardEmail": {
+    "message": "Email"
+  },
+  "camPermTitle": {
+    "message": "Akses kamera diperlukan"
+  },
+  "camPermDesc": {
+    "message": "Izinkan akses kamera satu kali di tab khusus."
+  },
+  "camPermBtn": {
+    "message": "Izinkan kamera (1 kali)"
+  },
+  "camOpenFullBtn": {
+    "message": "Buka pemindai layar penuh"
+  },
+  "camStartBtn": {
+    "message": "Mulai kamera"
+  },
+  "camStopBtn": {
+    "message": "Berhenti"
+  },
+  "camMirrorBtn": {
+    "message": "Cermin"
+  },
+  "camSelectLabel": {
+    "message": "Kamera"
+  },
+  "genInputLabel": {
+    "message": "Konten (URL, teks, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Masukkan URL atau teks..."
+  },
+  "genEccLabel": {
+    "message": "Koreksi kesalahan"
+  },
+  "genMarginLabel": {
+    "message": "Margin"
+  },
+  "genDownloadPng": {
+    "message": "Unduh PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Unduh SVG"
+  },
+  "genCopyImage": {
+    "message": "Salin gambar QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "Cari riwayat..."
+  },
+  "histExportCsv": {
+    "message": "Ekspor CSV"
+  },
+  "histExportJson": {
+    "message": "Ekspor JSON"
+  },
+  "histClearAll": {
+    "message": "Hapus semua"
+  },
+  "histEmpty": {
+    "message": "Belum ada riwayat tersimpan."
+  },
+  "histEnableLabel": {
+    "message": "Simpan riwayat secara lokal"
+  },
+  "linkBatchScan": {
+    "message": "Pindai PDF penuh atau banyak gambar di Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Kustomisasi warna, logo & QR massal di Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ alat lokal gratis"
+  },
+  "footerBy": {
+    "message": "Oleh Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Ganti tema terang / gelap"
+  }
+}

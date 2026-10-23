@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty QR-codescanner en generator"
+  },
+  "extDescription": {
+    "message": "Scan QR-codes op uw scherm, in een geselecteerd gebied, uit afbeeldingen of met uw camera en maak lokaal QR-codes."
+  },
+  "cmdScanTab": {
+    "message": "Scan QR-codes op actief tabblad"
+  },
+  "ctxScanImage": {
+    "message": "Scan deze QR-code met Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Lokaal"
+  },
+  "tabScan": {
+    "message": "Scannen"
+  },
+  "tabCamera": {
+    "message": "Camera"
+  },
+  "tabGenerate": {
+    "message": "Genereren"
+  },
+  "tabHistory": {
+    "message": "Geschiedenis"
+  },
+  "btnSelectArea": {
+    "message": "Selecteer schermgebied"
+  },
+  "btnRescanTab": {
+    "message": "Tabblad scannen"
+  },
+  "cropTitle": {
+    "message": "Sleep een rechthoek over de QR-code"
+  },
+  "cropHint": {
+    "message": "2x supersampling actief • Esc om te annuleren"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Selecteer op webpagina"
+  },
+  "cropCancelBtn": {
+    "message": "Sluiten"
+  },
+  "dropzoneTitle": {
+    "message": "Sleep een afbeelding, klik of plak (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — lokaal verwerkt op uw apparaat"
+  },
+  "resultsFoundCount": {
+    "message": "{count} QR-codes gedetecteerd"
+  },
+  "resultsFoundSingle": {
+    "message": "1 QR-code gedetecteerd"
+  },
+  "noQrFoundTitle": {
+    "message": "Geen QR-code gevonden in huidige weergave"
+  },
+  "noQrFoundSub": {
+    "message": "Gebruik \"Selecteer schermgebied\" voor kleine QR-codes of upload een afbeelding."
+  },
+  "scanningStatus": {
+    "message": "Lokaal scannen..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "Onversleutelde HTTP — controleer voor openen"
+  },
+  "securityIpWarn": {
+    "message": "Direct IP-adres — controleer voor openen"
+  },
+  "btnOpenUrl": {
+    "message": "Openen in nieuw tabblad"
+  },
+  "btnCopyUrl": {
+    "message": "Link kopiëren"
+  },
+  "btnCopyText": {
+    "message": "Tekst kopiëren"
+  },
+  "btnCopyPass": {
+    "message": "Wachtwoord kopiëren"
+  },
+  "btnShowPass": {
+    "message": "Tonen"
+  },
+  "btnHidePass": {
+    "message": "Verbergen"
+  },
+  "btnCopyTotp": {
+    "message": "6-cijferige code kopiëren"
+  },
+  "btnCopySecret": {
+    "message": "Geheime sleutel kopiëren"
+  },
+  "btnDownloadVcf": {
+    "message": "Contact downloaden (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "E-mail sturen"
+  },
+  "btnSendSms": {
+    "message": "SMS sturen"
+  },
+  "btnCallPhone": {
+    "message": "Bellen"
+  },
+  "copiedToast": {
+    "message": "Gekopieerd naar klembord"
+  },
+  "wifiSsid": {
+    "message": "Netwerk (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Beveiliging"
+  },
+  "wifiPassword": {
+    "message": "Wachtwoord"
+  },
+  "totpLiveCode": {
+    "message": "2FA-code (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Dienst"
+  },
+  "totpAccount": {
+    "message": "Account"
+  },
+  "vcardName": {
+    "message": "Naam"
+  },
+  "vcardOrg": {
+    "message": "Organisatie"
+  },
+  "vcardPhone": {
+    "message": "Telefoon"
+  },
+  "vcardEmail": {
+    "message": "E-mail"
+  },
+  "camPermTitle": {
+    "message": "Cameratoegang vereist"
+  },
+  "camPermDesc": {
+    "message": "Geef eenmalig toestemming voor de camera in een apart tabblad."
+  },
+  "camPermBtn": {
+    "message": "Camera toestaan (eenmalig)"
+  },
+  "camOpenFullBtn": {
+    "message": "Volledig scherm openen"
+  },
+  "camStartBtn": {
+    "message": "Start camera"
+  },
+  "camStopBtn": {
+    "message": "Stop"
+  },
+  "camMirrorBtn": {
+    "message": "Spiegelen"
+  },
+  "camSelectLabel": {
+    "message": "Camera"
+  },
+  "genInputLabel": {
+    "message": "Inhoud (URL, tekst, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Voer URL of tekst in..."
+  },
+  "genEccLabel": {
+    "message": "Foutcorrectie"
+  },
+  "genMarginLabel": {
+    "message": "Marge"
+  },
+  "genDownloadPng": {
+    "message": "Download PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Download SVG"
+  },
+  "genCopyImage": {
+    "message": "Kopieer QR-afbeelding"
+  },
+  "histSearchPlaceholder": {
+    "message": "Zoek in geschiedenis..."
+  },
+  "histExportCsv": {
+    "message": "Exporteer CSV"
+  },
+  "histExportJson": {
+    "message": "Exporteer JSON"
+  },
+  "histClearAll": {
+    "message": "Alles wissen"
+  },
+  "histEmpty": {
+    "message": "Nog geen geschiedenis opgeslagen."
+  },
+  "histEnableLabel": {
+    "message": "Geschiedenis lokaal opslaan"
+  },
+  "linkBatchScan": {
+    "message": "Volledige PDF of batch scannen op Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Kleuren, logo’s & bulk QR op Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ lokale tools"
+  },
+  "footerBy": {
+    "message": "Door Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Licht / donker thema wisselen"
+  }
+}

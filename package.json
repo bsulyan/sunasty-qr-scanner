@@ -1,0 +1,23 @@
+{
+  "name": "sunasty-qr-scanner",
+  "version": "1.0.1",
+  "license": "MIT",
+  "type": "module",
+  "description": "Offline QR code scanner and generator for Chrome (Manifest V3)",
+  "author": "Bastien Sulyan (Ulysan)",
+  "homepage": "https://sunasty.com/qr-scan/",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/test.mjs"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "esbuild": "^0.27.3",
+    "fflate": "^0.8.2",
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty Lecteur & Générateur de QR Code"
+  },
+  "extDescription": {
+    "message": "Scannez les codes QR à l’écran, sur une zone ciblée, une image ou via la caméra, et générez des codes QR en local."
+  },
+  "cmdScanTab": {
+    "message": "Scanner les codes QR de l’onglet actif"
+  },
+  "ctxScanImage": {
+    "message": "Scanner ce code QR avec Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Local"
+  },
+  "tabScan": {
+    "message": "Scanner"
+  },
+  "tabCamera": {
+    "message": "Caméra"
+  },
+  "tabGenerate": {
+    "message": "Générer"
+  },
+  "tabHistory": {
+    "message": "Historique"
+  },
+  "btnSelectArea": {
+    "message": "Sélectionner une zone"
+  },
+  "btnRescanTab": {
+    "message": "Scanner l’onglet"
+  },
+  "cropTitle": {
+    "message": "Tracez un rectangle à la souris autour du QR code"
+  },
+  "cropHint": {
+    "message": "Sur-échantillonnage 2x actif • Échap pour annuler"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Cibler sur la page web"
+  },
+  "cropCancelBtn": {
+    "message": "Fermer l’aperçu"
+  },
+  "dropzoneTitle": {
+    "message": "Glissez une image, cliquez pour importer ou collez (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — décodage local sur votre appareil"
+  },
+  "resultsFoundCount": {
+    "message": "{count} codes QR détectés"
+  },
+  "resultsFoundSingle": {
+    "message": "1 code QR détecté"
+  },
+  "noQrFoundTitle": {
+    "message": "Aucun code QR détecté sur la vue actuelle"
+  },
+  "noQrFoundSub": {
+    "message": "Utilisez « Sélectionner une zone » pour cibler un petit code QR ou importez une image ci-dessus."
+  },
+  "scanningStatus": {
+    "message": "Analyse locale en cours..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "HTTP non chiffré — vérifiez avant d’ouvrir"
+  },
+  "securityIpWarn": {
+    "message": "Adresse IP brute — vérifiez avant d’ouvrir"
+  },
+  "btnOpenUrl": {
+    "message": "Ouvrir dans un nouvel onglet"
+  },
+  "btnCopyUrl": {
+    "message": "Copier le lien"
+  },
+  "btnCopyText": {
+    "message": "Copier le texte"
+  },
+  "btnCopyPass": {
+    "message": "Copier le mot de passe"
+  },
+  "btnShowPass": {
+    "message": "Afficher"
+  },
+  "btnHidePass": {
+    "message": "Masquer"
+  },
+  "btnCopyTotp": {
+    "message": "Copier le code à 6 chiffres"
+  },
+  "btnCopySecret": {
+    "message": "Copier la clé secrète"
+  },
+  "btnDownloadVcf": {
+    "message": "Télécharger le contact (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "Envoyer un email"
+  },
+  "btnSendSms": {
+    "message": "Envoyer un SMS"
+  },
+  "btnCallPhone": {
+    "message": "Appeler le numéro"
+  },
+  "copiedToast": {
+    "message": "Copié dans le presse-papiers"
+  },
+  "wifiSsid": {
+    "message": "Réseau (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Sécurité"
+  },
+  "wifiPassword": {
+    "message": "Mot de passe"
+  },
+  "totpLiveCode": {
+    "message": "Code 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Service"
+  },
+  "totpAccount": {
+    "message": "Compte"
+  },
+  "vcardName": {
+    "message": "Nom complet"
+  },
+  "vcardOrg": {
+    "message": "Organisation"
+  },
+  "vcardPhone": {
+    "message": "Téléphone"
+  },
+  "vcardEmail": {
+    "message": "Email"
+  },
+  "camPermTitle": {
+    "message": "Autorisation caméra requise"
+  },
+  "camPermDesc": {
+    "message": "Chrome ferme la popup lors de la demande de permission. Cliquez ci-dessous pour autoriser la caméra une seule fois dans un onglet dédié."
+  },
+  "camPermBtn": {
+    "message": "Autoriser la caméra (1 seule fois)"
+  },
+  "camOpenFullBtn": {
+    "message": "Ouvrir le scanner plein écran"
+  },
+  "camStartBtn": {
+    "message": "Activer la caméra"
+  },
+  "camStopBtn": {
+    "message": "Arrêter"
+  },
+  "camMirrorBtn": {
+    "message": "Miroir"
+  },
+  "camSelectLabel": {
+    "message": "Caméra"
+  },
+  "genInputLabel": {
+    "message": "Contenu (URL, texte, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Saisissez une URL ou du texte à encoder..."
+  },
+  "genEccLabel": {
+    "message": "Correction d’erreur"
+  },
+  "genMarginLabel": {
+    "message": "Marge blanche"
+  },
+  "genDownloadPng": {
+    "message": "Télécharger PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Télécharger SVG"
+  },
+  "genCopyImage": {
+    "message": "Copier l’image QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "Rechercher dans l’historique (URL, Wi-Fi, 2FA)..."
+  },
+  "histExportCsv": {
+    "message": "Exporter CSV"
+  },
+  "histExportJson": {
+    "message": "Exporter JSON"
+  },
+  "histClearAll": {
+    "message": "Tout effacer"
+  },
+  "histEmpty": {
+    "message": "Aucun historique de scan enregistré."
+  },
+  "histEnableLabel": {
+    "message": "Enregistrer l’historique localement"
+  },
+  "linkBatchScan": {
+    "message": "Scanner un PDF complet ou en lot sur Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Couleurs, logos & QR personnalisés sur Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ outils locaux"
+  },
+  "footerBy": {
+    "message": "Par Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Basculer le thème clair / sombre"
+  }
+}

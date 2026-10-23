@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty 二维码扫描与生成器"
+  },
+  "extDescription": {
+    "message": "扫描屏幕、选定区域、图片或摄像头中的二维码，并在浏览器本地生成高清二维码。"
+  },
+  "cmdScanTab": {
+    "message": "扫描当前标签页中的二维码"
+  },
+  "ctxScanImage": {
+    "message": "使用 Sunasty 扫描此二维码"
+  },
+  "badgeLocal": {
+    "message": "本地"
+  },
+  "tabScan": {
+    "message": "扫描"
+  },
+  "tabCamera": {
+    "message": "摄像头"
+  },
+  "tabGenerate": {
+    "message": "生成"
+  },
+  "tabHistory": {
+    "message": "历史"
+  },
+  "btnSelectArea": {
+    "message": "框选屏幕区域"
+  },
+  "btnRescanTab": {
+    "message": "扫描当前网页"
+  },
+  "cropTitle": {
+    "message": "请用鼠标拖动框选二维码区域"
+  },
+  "cropHint": {
+    "message": "2倍超采样已启用 • 按 Esc 取消"
+  },
+  "cropPageOverlayBtn": {
+    "message": "在网页上直接框选"
+  },
+  "cropCancelBtn": {
+    "message": "关闭预览"
+  },
+  "dropzoneTitle": {
+    "message": "拖放图片、点击导入或直接粘贴 (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "支持 Images — 本地设备解码"
+  },
+  "resultsFoundCount": {
+    "message": "检测到 {count} 个二维码"
+  },
+  "resultsFoundSingle": {
+    "message": "检测到 1 个二维码"
+  },
+  "noQrFoundTitle": {
+    "message": "当前视图未检测到二维码"
+  },
+  "noQrFoundSub": {
+    "message": "请使用“框选屏幕区域”放大识别小二维码，或在上方拖入图片。"
+  },
+  "scanningStatus": {
+    "message": "正在本地分析图像..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "未加密 HTTP 链接 — 打开前请确认"
+  },
+  "securityIpWarn": {
+    "message": "纯 IP 链接 — 打开前请确认"
+  },
+  "btnOpenUrl": {
+    "message": "在新标签页打开"
+  },
+  "btnCopyUrl": {
+    "message": "复制链接"
+  },
+  "btnCopyText": {
+    "message": "复制文本"
+  },
+  "btnCopyPass": {
+    "message": "复制密码"
+  },
+  "btnShowPass": {
+    "message": "显示"
+  },
+  "btnHidePass": {
+    "message": "隐藏"
+  },
+  "btnCopyTotp": {
+    "message": "复制 6 位验证码"
+  },
+  "btnCopySecret": {
+    "message": "复制密钥"
+  },
+  "btnDownloadVcf": {
+    "message": "下载联系人 (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "发送邮件"
+  },
+  "btnSendSms": {
+    "message": "发送短信"
+  },
+  "btnCallPhone": {
+    "message": "拨打电话"
+  },
+  "copiedToast": {
+    "message": "已复制到剪贴板"
+  },
+  "wifiSsid": {
+    "message": "无线网络 (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "加密方式"
+  },
+  "wifiPassword": {
+    "message": "密码"
+  },
+  "totpLiveCode": {
+    "message": "2FA 验证码 (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "服务商"
+  },
+  "totpAccount": {
+    "message": "账号"
+  },
+  "vcardName": {
+    "message": "姓名"
+  },
+  "vcardOrg": {
+    "message": "组织"
+  },
+  "vcardPhone": {
+    "message": "电话"
+  },
+  "vcardEmail": {
+    "message": "邮箱"
+  },
+  "camPermTitle": {
+    "message": "需要摄像头权限"
+  },
+  "camPermDesc": {
+    "message": "点击下方按钮在独立标签页中一次性授权摄像头权限。"
+  },
+  "camPermBtn": {
+    "message": "授权摄像头 (仅需一次)"
+  },
+  "camOpenFullBtn": {
+    "message": "打开全屏扫描器"
+  },
+  "camStartBtn": {
+    "message": "开启摄像头"
+  },
+  "camStopBtn": {
+    "message": "停止"
+  },
+  "camMirrorBtn": {
+    "message": "镜像翻转"
+  },
+  "camSelectLabel": {
+    "message": "选择摄像头"
+  },
+  "genInputLabel": {
+    "message": "二维码内容 (网址、文本、Wi-Fi、名片)"
+  },
+  "genInputPlaceholder": {
+    "message": "输入要生成二维码的网址或文本..."
+  },
+  "genEccLabel": {
+    "message": "纠错级别"
+  },
+  "genMarginLabel": {
+    "message": "白边边距"
+  },
+  "genDownloadPng": {
+    "message": "下载 PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "下载 SVG"
+  },
+  "genCopyImage": {
+    "message": "复制二维码图片"
+  },
+  "histSearchPlaceholder": {
+    "message": "搜索历史记录..."
+  },
+  "histExportCsv": {
+    "message": "导出 CSV"
+  },
+  "histExportJson": {
+    "message": "导出 JSON"
+  },
+  "histClearAll": {
+    "message": "清空全部"
+  },
+  "histEmpty": {
+    "message": "暂无扫描历史记录。"
+  },
+  "histEnableLabel": {
+    "message": "在本地保存扫描历史"
+  },
+  "linkBatchScan": {
+    "message": "在 Sunasty.com 批量扫描 PDF 或多张图片 →"
+  },
+  "linkCustomQr": {
+    "message": "在 Sunasty.com 定制颜色、Logo 与批量生成 →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ 本地工具"
+  },
+  "footerBy": {
+    "message": "由 Ulysan 出品"
+  },
+  "themeToggleTitle": {
+    "message": "切换浅色 / 深色主题"
+  }
+}

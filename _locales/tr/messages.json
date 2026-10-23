@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty QR Kod Tarayıcı ve Oluşturucu"
+  },
+  "extDescription": {
+    "message": "Ekrandaki, seçili alandaki, görsellerdeki veya kameradaki QR kodlarını tarayın ve yerel olarak QR kodları oluşturun."
+  },
+  "cmdScanTab": {
+    "message": "Aktif sekmedeki QR kodlarını tara"
+  },
+  "ctxScanImage": {
+    "message": "Bu QR kodu Sunasty ile tara"
+  },
+  "badgeLocal": {
+    "message": "Yerel"
+  },
+  "tabScan": {
+    "message": "Tara"
+  },
+  "tabCamera": {
+    "message": "Kamera"
+  },
+  "tabGenerate": {
+    "message": "Oluştur"
+  },
+  "tabHistory": {
+    "message": "Geçmiş"
+  },
+  "btnSelectArea": {
+    "message": "Ekran alanı seç"
+  },
+  "btnRescanTab": {
+    "message": "Sekmeyi tara"
+  },
+  "cropTitle": {
+    "message": "QR kodun etrafına fareyle bir dikdörtgen çizin"
+  },
+  "cropHint": {
+    "message": "2x süper örnekleme aktif • İptal için Esc"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Web sayfasında doğrudan seç"
+  },
+  "cropCancelBtn": {
+    "message": "Kapat"
+  },
+  "dropzoneTitle": {
+    "message": "Bir görsel sürükleyin, tıklayın veya yapıştırın (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — cihazınızda yerel olarak işlenir"
+  },
+  "resultsFoundCount": {
+    "message": "{count} QR kod algılandı"
+  },
+  "resultsFoundSingle": {
+    "message": "1 QR kod algılandı"
+  },
+  "noQrFoundTitle": {
+    "message": "Mevcut görünümde QR kod algılanmadı"
+  },
+  "noQrFoundSub": {
+    "message": "Küçük QR kodlar için \"Ekran alanı seç\" düğmesini kullanın veya görsel yükleyin."
+  },
+  "scanningStatus": {
+    "message": "Yerel olarak taranıyor..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "Şifrelenmemiş HTTP — açmadan önce doğrulayın"
+  },
+  "securityIpWarn": {
+    "message": "Ham IP adresi — açmadan önce doğrulayın"
+  },
+  "btnOpenUrl": {
+    "message": "Yeni sekmede aç"
+  },
+  "btnCopyUrl": {
+    "message": "Bağlantıyı kopyala"
+  },
+  "btnCopyText": {
+    "message": "Metni kopyala"
+  },
+  "btnCopyPass": {
+    "message": "Parolayı kopyala"
+  },
+  "btnShowPass": {
+    "message": "Göster"
+  },
+  "btnHidePass": {
+    "message": "Gizle"
+  },
+  "btnCopyTotp": {
+    "message": "6 haneli kodu kopyala"
+  },
+  "btnCopySecret": {
+    "message": "Gizli anahtarı kopyala"
+  },
+  "btnDownloadVcf": {
+    "message": "Kişiyi indir (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "E-posta gönder"
+  },
+  "btnSendSms": {
+    "message": "SMS gönder"
+  },
+  "btnCallPhone": {
+    "message": "Ara"
+  },
+  "copiedToast": {
+    "message": "Panoya kopyalandı"
+  },
+  "wifiSsid": {
+    "message": "Ağ (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Güvenlik"
+  },
+  "wifiPassword": {
+    "message": "Parola"
+  },
+  "totpLiveCode": {
+    "message": "2FA Kodu (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Servis"
+  },
+  "totpAccount": {
+    "message": "Hesap"
+  },
+  "vcardName": {
+    "message": "Ad Soyad"
+  },
+  "vcardOrg": {
+    "message": "Kurum"
+  },
+  "vcardPhone": {
+    "message": "Telefon"
+  },
+  "vcardEmail": {
+    "message": "E-posta"
+  },
+  "camPermTitle": {
+    "message": "Kamera izni gerekli"
+  },
+  "camPermDesc": {
+    "message": "Kamera iznini özel sekmede tek seferlik onaylayın."
+  },
+  "camPermBtn": {
+    "message": "Kameraya izin ver (tek seferlik)"
+  },
+  "camOpenFullBtn": {
+    "message": "Tam ekran tarayıcıyı aç"
+  },
+  "camStartBtn": {
+    "message": "Kamerayı başlat"
+  },
+  "camStopBtn": {
+    "message": "Durdur"
+  },
+  "camMirrorBtn": {
+    "message": "Ayna"
+  },
+  "camSelectLabel": {
+    "message": "Kamera"
+  },
+  "genInputLabel": {
+    "message": "İçerik (URL, metin, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "URL veya metin girin..."
+  },
+  "genEccLabel": {
+    "message": "Hata düzeltme"
+  },
+  "genMarginLabel": {
+    "message": "Kenar boşluğu"
+  },
+  "genDownloadPng": {
+    "message": "PNG indir (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "SVG indir"
+  },
+  "genCopyImage": {
+    "message": "QR görselini kopyala"
+  },
+  "histSearchPlaceholder": {
+    "message": "Geçmişte ara..."
+  },
+  "histExportCsv": {
+    "message": "CSV dışa aktar"
+  },
+  "histExportJson": {
+    "message": "JSON dışa aktar"
+  },
+  "histClearAll": {
+    "message": "Tümünü temizle"
+  },
+  "histEmpty": {
+    "message": "Henüz tarama geçmişi yok."
+  },
+  "histEnableLabel": {
+    "message": "Geçmişi yerel olarak kaydet"
+  },
+  "linkBatchScan": {
+    "message": "Sunasty.com üzerinde tam PDF veya toplu görsel tarayın →"
+  },
+  "linkCustomQr": {
+    "message": "Sunasty.com üzerinde özel renkli ve logolu QR oluşturun →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ ücretsiz yerel araç"
+  },
+  "footerBy": {
+    "message": "Ulysan tarafından"
+  },
+  "themeToggleTitle": {
+    "message": "Açık / koyu tema değiştir"
+  }
+}

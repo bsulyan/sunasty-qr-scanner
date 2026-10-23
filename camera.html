@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunasty QR — Camera Scanner &amp; Setup</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+      max-height: none;
+      overflow-y: auto;
+    }
+    .cam-page-wrap {
+      max-width: 720px;
+      width: 100%;
+      margin: 28px auto;
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex: 1;
+    }
+    .cam-hero-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: var(--shadow-card);
+    }
+    .cam-stage-large {
+      position: relative;
+      width: 100%;
+      height: 380px;
+      background: #0f172a;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #cam-full-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #cam-full-video.mirrored {
+      transform: scaleX(-1);
+    }
+    .cam-status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: var(--surface-2);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+    .cam-status-pill.granted {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <header class="qr-header">
+    <div class="qr-brand">
+      <div class="qr-logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="3" y="14" width="7" height="7" rx="1"/>
+          <path d="M14 14h3v3h-3zM18 18h3v3h-3zM18 14h3M14 18v3"/>
+        </svg>
+      </div>
+      <div class="qr-brand-text">
+        <span class="qr-title">Sunasty QR — Camera</span>
+      </div>
+    </div>
+    <div class="qr-header-actions">
+      <a href="https://sunasty.com/qr-scan/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" class="header-site-link">sunasty.com ↗</a>
+    </div>
+  </header>
+
+  <main class="cam-page-wrap">
+    <section class="cam-hero-card">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+        <div>
+          <h1 style="font-size: 15px; font-weight: 600;" data-i18n="tabCamera">Camera</h1>
+          <p style="font-size: 12px; color: var(--text-secondary);" data-i18n="camPermDesc">
+            Authorize your camera once in this tab to enable instant live scanning in the Sunasty QR popup.
+          </p>
+        </div>
+        <span id="cam-perm-badge" class="cam-status-pill">Ready</span>
+      </div>
+
+      <div class="camera-controls-bar">
+        <select id="cam-full-select" class="select-input" aria-label="Camera device"></select>
+        <button type="button" id="btn-cam-full-start" class="btn btn-primary" data-i18n="camStartBtn">Start camera</button>
+        <button type="button" id="btn-cam-full-mirror" class="btn btn-secondary" data-i18n="camMirrorBtn">Mirror</button>
+        <button type="button" id="btn-cam-full-stop" class="btn btn-secondary" data-i18n="camStopBtn">Stop</button>
+      </div>
+
+      <div class="cam-stage-large">
+        <video id="cam-full-video" autoplay playsinline muted></video>
+        <div class="camera-reticle" aria-hidden="true"></div>
+      </div>
+
+      <div id="cam-full-results" class="scan-results-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="qr-footer">
+    <a href="https://sunasty.com/qr-scan/?utm_source=chrome_extension" target="_blank" rel="noopener noreferrer" data-i18n="footerTools">Sunasty.com — 170+ local tools</a>
+    <span class="footer-sep" aria-hidden="true">•</span>
+    <a href="https://ulysan.fr/" target="_blank" rel="noopener noreferrer" data-i18n="footerBy">By Ulysan</a>
+  </footer>
+
+  <script src="camera.js"></script>
+</body>
+</html>

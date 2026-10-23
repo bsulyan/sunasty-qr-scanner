@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty Skaner i Generator Kodów QR"
+  },
+  "extDescription": {
+    "message": "Skanuj kody QR z ekranu, wybranego obszaru, obrazów lub kamery oraz twórz kody QR lokalnie w przeglądarce."
+  },
+  "cmdScanTab": {
+    "message": "Skanuj kody QR na aktywnej karcie"
+  },
+  "ctxScanImage": {
+    "message": "Skanuj ten kod QR za pomocą Sunasty"
+  },
+  "badgeLocal": {
+    "message": "Lokalnie"
+  },
+  "tabScan": {
+    "message": "Skanuj"
+  },
+  "tabCamera": {
+    "message": "Kamera"
+  },
+  "tabGenerate": {
+    "message": "Generuj"
+  },
+  "tabHistory": {
+    "message": "Historia"
+  },
+  "btnSelectArea": {
+    "message": "Zaznacz obszar"
+  },
+  "btnRescanTab": {
+    "message": "Skanuj kartę"
+  },
+  "cropTitle": {
+    "message": "Zaznacz prostokąt wokół kodu QR"
+  },
+  "cropHint": {
+    "message": "Nadpróbkowanie 2x aktywne • Esc aby anulować"
+  },
+  "cropPageOverlayBtn": {
+    "message": "Zaznacz na stronie"
+  },
+  "cropCancelBtn": {
+    "message": "Zamknij"
+  },
+  "dropzoneTitle": {
+    "message": "Upuść obraz, kliknij lub wklej (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — przetwarzane lokalnie"
+  },
+  "resultsFoundCount": {
+    "message": "Wykryto {count} kodów QR"
+  },
+  "resultsFoundSingle": {
+    "message": "Wykryto 1 kod QR"
+  },
+  "noQrFoundTitle": {
+    "message": "Nie wykryto kodu QR w bieżącym widoku"
+  },
+  "noQrFoundSub": {
+    "message": "Użyj opcji „Zaznacz obszar” dla małych kodów QR lub prześlij obraz."
+  },
+  "scanningStatus": {
+    "message": "Lokalne skanowanie..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "Nieszyfrowane HTTP — sprawdź przed otwarciem"
+  },
+  "securityIpWarn": {
+    "message": "Bezpośredni adres IP — sprawdź przed otwarciem"
+  },
+  "btnOpenUrl": {
+    "message": "Otwórz w nowej karcie"
+  },
+  "btnCopyUrl": {
+    "message": "Kopiuj link"
+  },
+  "btnCopyText": {
+    "message": "Kopiuj tekst"
+  },
+  "btnCopyPass": {
+    "message": "Kopiuj hasło"
+  },
+  "btnShowPass": {
+    "message": "Pokaż"
+  },
+  "btnHidePass": {
+    "message": "Ukryj"
+  },
+  "btnCopyTotp": {
+    "message": "Kopiuj 6-cyfrowy kod"
+  },
+  "btnCopySecret": {
+    "message": "Kopiuj klucz tajny"
+  },
+  "btnDownloadVcf": {
+    "message": "Pobierz kontakt (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "Wyślij e-mail"
+  },
+  "btnSendSms": {
+    "message": "Wyślij SMS"
+  },
+  "btnCallPhone": {
+    "message": "Zadzwoń"
+  },
+  "copiedToast": {
+    "message": "Skopiowano do schowka"
+  },
+  "wifiSsid": {
+    "message": "Sieć (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "Zabezpieczenia"
+  },
+  "wifiPassword": {
+    "message": "Hasło"
+  },
+  "totpLiveCode": {
+    "message": "Kod 2FA (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "Usługa"
+  },
+  "totpAccount": {
+    "message": "Konto"
+  },
+  "vcardName": {
+    "message": "Imię i nazwisko"
+  },
+  "vcardOrg": {
+    "message": "Organizacja"
+  },
+  "vcardPhone": {
+    "message": "Telefon"
+  },
+  "vcardEmail": {
+    "message": "E-mail"
+  },
+  "camPermTitle": {
+    "message": "Wymagany dostęp do kamery"
+  },
+  "camPermDesc": {
+    "message": "Autoryzuj kamerę jednorazowo w osobnej karcie."
+  },
+  "camPermBtn": {
+    "message": "Autoryzuj kamerę (jednorazowo)"
+  },
+  "camOpenFullBtn": {
+    "message": "Otwórz skaner pełnoekranowy"
+  },
+  "camStartBtn": {
+    "message": "Uruchom kamerę"
+  },
+  "camStopBtn": {
+    "message": "Zatrzymaj"
+  },
+  "camMirrorBtn": {
+    "message": "Lustro"
+  },
+  "camSelectLabel": {
+    "message": "Kamera"
+  },
+  "genInputLabel": {
+    "message": "Treść (URL, tekst, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "Wpisz URL lub tekst..."
+  },
+  "genEccLabel": {
+    "message": "Korekcja błędów"
+  },
+  "genMarginLabel": {
+    "message": "Margines"
+  },
+  "genDownloadPng": {
+    "message": "Pobierz PNG (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "Pobierz SVG"
+  },
+  "genCopyImage": {
+    "message": "Kopiuj obraz QR"
+  },
+  "histSearchPlaceholder": {
+    "message": "Szukaj w historii..."
+  },
+  "histExportCsv": {
+    "message": "Eksportuj CSV"
+  },
+  "histExportJson": {
+    "message": "Eksportuj JSON"
+  },
+  "histClearAll": {
+    "message": "Wyczyść wszystko"
+  },
+  "histEmpty": {
+    "message": "Brak zapisanej historii."
+  },
+  "histEnableLabel": {
+    "message": "Zapisuj historię lokalnie"
+  },
+  "linkBatchScan": {
+    "message": "Skanuj całe pliki PDF lub wsadowo na Sunasty.com →"
+  },
+  "linkCustomQr": {
+    "message": "Własne kolory, logo i masowe kody QR na Sunasty.com →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170+ lokalnych narzędzi"
+  },
+  "footerBy": {
+    "message": "Od Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "Przełącz jasny / ciemny motyw"
+  }
+}

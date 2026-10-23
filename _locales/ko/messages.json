@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Sunasty QR 코드 스캐너 및 생성기"
+  },
+  "extDescription": {
+    "message": "화면, 선택 영역, 이미지 또는 웹캠에서 QR 코드를 스캔하고 브라우저에서 로컬로 QR 코드를 생성합니다."
+  },
+  "cmdScanTab": {
+    "message": "현재 탭에서 QR 코드 스캔"
+  },
+  "ctxScanImage": {
+    "message": "Sunasty로 이 QR 코드 스캔"
+  },
+  "badgeLocal": {
+    "message": "로컬"
+  },
+  "tabScan": {
+    "message": "스캔"
+  },
+  "tabCamera": {
+    "message": "카메라"
+  },
+  "tabGenerate": {
+    "message": "생성"
+  },
+  "tabHistory": {
+    "message": "기록"
+  },
+  "btnSelectArea": {
+    "message": "화면 영역 선택"
+  },
+  "btnRescanTab": {
+    "message": "현재 탭 스캔"
+  },
+  "cropTitle": {
+    "message": "QR 코드 주변을 마우스로 드래그하세요"
+  },
+  "cropHint": {
+    "message": "2배 슈퍼샘플링 활성 • 취소하려면 Esc"
+  },
+  "cropPageOverlayBtn": {
+    "message": "웹페이지에서 직접 선택"
+  },
+  "cropCancelBtn": {
+    "message": "닫기"
+  },
+  "dropzoneTitle": {
+    "message": "이미지 드롭, 클릭하여 가져오기 또는 붙여넣기 (Ctrl+V)"
+  },
+  "dropzoneSub": {
+    "message": "Images — 기기 내에서 안전하게 처리"
+  },
+  "resultsFoundCount": {
+    "message": "QR 코드 {count}개 감지됨"
+  },
+  "resultsFoundSingle": {
+    "message": "QR 코드 1개 감지됨"
+  },
+  "noQrFoundTitle": {
+    "message": "현재 화면에서 QR 코드를 찾을 수 없습니다"
+  },
+  "noQrFoundSub": {
+    "message": "작은 QR 코드는 \"화면 영역 선택\"을 사용하거나 이미지를 업로드하세요."
+  },
+  "scanningStatus": {
+    "message": "로컬에서 분석 중..."
+  },
+  "securityHttps": {
+    "message": "HTTPS"
+  },
+  "securityHttpWarn": {
+    "message": "암호화되지 않은 HTTP — 열기 전 확인"
+  },
+  "securityIpWarn": {
+    "message": "직접 IP 주소 — 열기 전 확인"
+  },
+  "btnOpenUrl": {
+    "message": "새 탭에서 열기"
+  },
+  "btnCopyUrl": {
+    "message": "링크 복사"
+  },
+  "btnCopyText": {
+    "message": "텍스트 복사"
+  },
+  "btnCopyPass": {
+    "message": "비밀번호 복사"
+  },
+  "btnShowPass": {
+    "message": "표시"
+  },
+  "btnHidePass": {
+    "message": "숨기기"
+  },
+  "btnCopyTotp": {
+    "message": "6자리 코드 복사"
+  },
+  "btnCopySecret": {
+    "message": "시크릿 키 복사"
+  },
+  "btnDownloadVcf": {
+    "message": "연락처 다운로드 (.vcf)"
+  },
+  "btnSendEmail": {
+    "message": "이메일 보내기"
+  },
+  "btnSendSms": {
+    "message": "SMS 보내기"
+  },
+  "btnCallPhone": {
+    "message": "전화 걸기"
+  },
+  "copiedToast": {
+    "message": "클립보드에 복사되었습니다"
+  },
+  "wifiSsid": {
+    "message": "네트워크 (SSID)"
+  },
+  "wifiSecurity": {
+    "message": "보안"
+  },
+  "wifiPassword": {
+    "message": "비밀번호"
+  },
+  "totpLiveCode": {
+    "message": "2FA 코드 (TOTP)"
+  },
+  "totpIssuer": {
+    "message": "서비스"
+  },
+  "totpAccount": {
+    "message": "계정"
+  },
+  "vcardName": {
+    "message": "이름"
+  },
+  "vcardOrg": {
+    "message": "조직"
+  },
+  "vcardPhone": {
+    "message": "전화번호"
+  },
+  "vcardEmail": {
+    "message": "이메일"
+  },
+  "camPermTitle": {
+    "message": "카메라 권한 필요"
+  },
+  "camPermDesc": {
+    "message": "전용 탭에서 카메라 권한을 한 번만 허용해 주세요."
+  },
+  "camPermBtn": {
+    "message": "카메라 권한 허용 (1회 설정)"
+  },
+  "camOpenFullBtn": {
+    "message": "전체 화면 스캐너 열기"
+  },
+  "camStartBtn": {
+    "message": "카메라 시작"
+  },
+  "camStopBtn": {
+    "message": "중지"
+  },
+  "camMirrorBtn": {
+    "message": "좌우 반전"
+  },
+  "camSelectLabel": {
+    "message": "카메라"
+  },
+  "genInputLabel": {
+    "message": "내용 (URL, 텍스트, Wi-Fi, vCard)"
+  },
+  "genInputPlaceholder": {
+    "message": "URL 또는 텍스트 입력..."
+  },
+  "genEccLabel": {
+    "message": "오류 복원 수준"
+  },
+  "genMarginLabel": {
+    "message": "여백"
+  },
+  "genDownloadPng": {
+    "message": "PNG 다운로드 (1024px)"
+  },
+  "genDownloadSvg": {
+    "message": "SVG 다운로드"
+  },
+  "genCopyImage": {
+    "message": "QR 이미지 복사"
+  },
+  "histSearchPlaceholder": {
+    "message": "기록 검색..."
+  },
+  "histExportCsv": {
+    "message": "CSV 내보내기"
+  },
+  "histExportJson": {
+    "message": "JSON 내보내기"
+  },
+  "histClearAll": {
+    "message": "모두 지우기"
+  },
+  "histEmpty": {
+    "message": "저장된 스캔 기록이 없습니다."
+  },
+  "histEnableLabel": {
+    "message": "스캔 기록을 로컬에 저장"
+  },
+  "linkBatchScan": {
+    "message": "Sunasty.com에서 전체 PDF 또는 다중 이미지 일괄 스캔 →"
+  },
+  "linkCustomQr": {
+    "message": "Sunasty.com에서 색상·로고 맞춤 QR 생성 →"
+  },
+  "footerTools": {
+    "message": "Sunasty.com — 170개 이상의 무료 로컬 도구"
+  },
+  "footerBy": {
+    "message": "By Ulysan"
+  },
+  "themeToggleTitle": {
+    "message": "라이트 / 다크 테마 전환"
+  }
+}
