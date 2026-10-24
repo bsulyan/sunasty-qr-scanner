@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sulyan"
+    given-names: "Bastien"
+    affiliation: "Sunasty"
+title: "sunasty-qr-scanner"
+version: 1.0.0
+date-released: 2026-10-24
+url: "https://sunasty.com"
+repository-code: "https://github.com/bsulyan/sunasty-qr-scanner"
+license: MIT
+keywords:
+  - "chrome-extension"
+  - "qrcode"
+  - "totp"

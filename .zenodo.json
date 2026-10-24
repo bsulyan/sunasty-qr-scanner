@@ -1,0 +1,31 @@
+{
+  "title": "sunasty-qr-scanner: Offline QR Code Scanner and Generator for Chrome",
+  "description": "Offline Chrome extension (Manifest V3) for multi-scale QR code scanning, crop selection, and TOTP 2FA generation. Developed for Sunasty.",
+  "creators": [
+    {
+      "name": "Sulyan, Bastien",
+      "affiliation": "Sunasty"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "qrcode",
+    "totp",
+    "manifest-v3"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://sunasty.com",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bsulyan/sunasty-qr-scanner",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "upload_type": "software"
+}
